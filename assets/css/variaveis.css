@@ -1,0 +1,19 @@
+@import url(./cabecalho/cabecalho.css);
+@import url(./conteudoPrincipal/antesEdepois.css);
+@import url(./conteudoPrincipal/videos.css);
+@import url(./conteudoPrincipal/vantagens.css);
+@import url(./conteudoPrincipal/avaliacao.css);
+@import url(./conteudoPrincipal/mapa.css);
+@import url(./conteudoPrincipal/carrosel.css);
+@import url(./rodape/contato.css);
+
+:root{
+    --cor-de-fundo: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --outro-background: linear-gradient(90deg, #143f5f 35.49%, #3b4b57 165.37%);
+    --preto-nao-tao-preto: #1a1a1d;
+    --cinza-diferentao: #c4c0bd;
+    --fonte-principal: 'Open Sans', sans-serif;
+    --fonte-letra: #FFFFFF; 
+    --azul-diferentao: #326589;
+}
+

@@ -1,0 +1,66 @@
+@import url(/assets/css/variaveis.css);
+
+.carrosel{
+    font-family: var(--fonte-principal);
+    margin: 80px 20px;
+}
+
+.carrosel__titulo{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 10px;
+}
+
+.swiper-slide__img{
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrosel{
+        margin: 100px 0;
+    }
+    .carrosel__titulo{
+        font-family: var(--fonte-principal);
+        font-size: 34px;
+        font-weight: 700;
+        margin: 50px 20px;
+        text-transform: uppercase;
+    }
+    .swiper-pagination {
+      margin: 2em 0 3em 0;
+    }
+    .swiper{
+      width: 60%;   
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: none;
+    }
+}
+@media screen and (min-width: 1728px){
+    .carrosel{
+        margin: 100px 0;
+    }
+    .carrosel__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw; 
+        align-items: center;
+    }
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+}

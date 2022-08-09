@@ -1,0 +1,23 @@
+@import url(/assets/css/variaveis.css);
+
+@media screen and (min-width: 375px) {
+    .mapa{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 20px;
+    }
+    .mapa__titulo{
+        font-family: var(--fonte-principal);
+        font-size: 34px;
+        font-weight: 700;
+        margin: 50px 20px;
+        text-transform: uppercase;
+    }
+}

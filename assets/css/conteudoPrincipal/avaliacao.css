@@ -1,0 +1,65 @@
+@import url(/assets/css/variaveis.css);
+
+.avaliacao{
+    align-items: center;
+    background: var(--outro-background);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    margin: 50px 0px;
+    width: 100%;
+}
+.avalicao__img{
+    text-align: center;
+}
+.avalicao__imagem{
+    width: 50%;
+    margin: 20px 10px;
+    
+}
+
+.avalicao__titulo{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.avalicao__texto{
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .avalicao__img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 70px 0;
+    }
+    .avalicao__imagem{
+        width: 30%;
+        margin: 20px 10px;
+    }
+    .vantagens__conteudo{
+        margin: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .avalicao__img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 70px 0;
+    }
+    .avalicao__imagem{
+        width: 30%;
+        margin: 20px 10px;
+    }
+    .vantagens__conteudo{
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,6 @@
+@import url(/assets/css/variaveis.css);
+
+.conteudoSite{
+    font-family: var(--fonte-principal);
+    width: 100%;
+}
